@@ -1,11 +1,17 @@
 package com.ashwath.algorithm.sorting;
 
+/**
+ * 
+ * @author Ashwath
+ *
+ */
 public class MergeSortOptimised {
 
 	public static void main(String[] args) {
 		int[] intArray = { 20, 35, -15, 7, 55, 1, -22 };
 
 		mergeSort(intArray, 0, intArray.length);
+		
 		for (int k : intArray)
 			System.out.println(k);
 	}
